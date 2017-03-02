@@ -1,0 +1,23 @@
+{
+  "name": "stockmarket",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vietpv94/StockMarket.git"
+  },
+  "keywords": [
+    "nah"
+  ],
+  "author": "Vietpham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vietpv94/StockMarket/issues"
+  },
+  "homepage": "https://github.com/vietpv94/StockMarket#readme"
+}
