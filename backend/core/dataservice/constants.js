@@ -3,7 +3,7 @@
 module.exports = {
   STOCK_CODE: {
     companies: [
-      {code:'CBA', name: 'COMMONWEAL BANK OF AUSTRALIA', price: 88.00, volume: 921312},
+      {code: 'CBA', name: 'COMMONWEAL BANK OF AUSTRALIA', price: 88.00, volume: 921312},
       {code: 'SRX', name: 'SIRTEX MEDICAL LIMITED', price: 79.00, volume: 21341},
       {code: 'ANZ', name: 'AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED', price: 15.00, volume: 344125},
       {code: 'BHP', name: 'BHP BILLION LIMITED', price: 34.12, volume: 921312},
