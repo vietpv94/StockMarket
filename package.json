@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/vietpv94/StockMarket#readme",
   "dependencies": {
-    "async-eventemitter": "^0.2.2"
+    "async-eventemitter": "^0.2.2",
+    "chalk": "^1.1.3",
+    "express": "^4.15.0",
+    "socket.io": "^1.7.3"
   }
 }
