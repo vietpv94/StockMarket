@@ -1,0 +1,22 @@
+{
+  "name": "stockmarket",
+  "description": "Test",
+  "main": "app.js",
+  "authors": [
+    "Vietpham"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "nah"
+  ],
+  "homepage": "https://github.com/vietpv94/StockMarket",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "frontend/components",
+    "test",
+    "tests"
+  ]
+}

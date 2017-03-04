@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/vietpv94/StockMarket/issues"
   },
-  "homepage": "https://github.com/vietpv94/StockMarket#readme"
+  "homepage": "https://github.com/vietpv94/StockMarket#readme",
+  "dependencies": {
+    "async-eventemitter": "^0.2.2"
+  }
 }

@@ -1,6 +1,13 @@
 doctype html
 html
   head
+    meta(charset="utf-8")
+    base(href="/")
     title StockMarket
+    script(src="/components/react/react.js")
+    script(src="/components/react/react-dom.js")
+    script(src="/components/babel/browser.min.js")
   body
-    p Chung khoan dong cua
+    div(id="root")
+    script(type="text/babel").
+      ReactDOM.render(<h1>leu leu</h1>, document.getElementById('root'));

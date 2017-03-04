@@ -17,4 +17,5 @@ exports = module.exports = app;
 app.set('views', FRONTEND_PATH + '/views')
 app.set('view engine', 'jade');
 
+app.use('/components', express.static(FRONTEND_PATH + '/components'));
 require('./router')(app);
