@@ -18,7 +18,7 @@ function startWsserver() {
   });
 }
 
-async.series([startWsserver, startWebserver], (err) => {
+async.parallel([startWebserver, startWsserver], (err, result) => {
   if (err) {
     console.error('Fatal error: %s', err);
     if (err.stack) {
@@ -26,4 +26,5 @@ async.series([startWsserver, startWebserver], (err) => {
     }
     process.exit(1);
   }
+  console.log(result);
 });

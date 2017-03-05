@@ -18,4 +18,6 @@ app.set('views', FRONTEND_PATH + '/views')
 app.set('view engine', 'jade');
 
 app.use('/components', express.static(FRONTEND_PATH + '/components'));
+app.use('/js', express.static(FRONTEND_PATH + '/js'));
+app.use('/css', express.static(FRONTEND_PATH + '/views/css'));
 require('./router')(app);

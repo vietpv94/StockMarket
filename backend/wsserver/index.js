@@ -35,12 +35,7 @@ function start(port, callback) {
   }
 
   const sio = io(wsserver.server);
-
-  sio.on('connection', (socket) => {
-    client.on('disconect', () => {
-      console.log('socket disconected');
-    });
-  });
+  
   wsserver.io = sio;
   require('./events')(sio);
 }

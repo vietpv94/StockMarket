@@ -12,7 +12,7 @@ module.exports = {
       {code: 'MQG', name: 'MACQUARIE GROUP LIMITED', price: 20.12, volume: 556733},
       {code: 'QBE', name: 'QBE INSURANCE GROUP LIMITED', price: 29.03, volume: 468953},
       {code: 'RIO', name: 'RIO TINTO LIMITED', price: 72.21, volume: 123567},
-      {code: 'WES', name: 'WESFARMERS LIMITED', price 92.21, volume: 975754},
+      {code: 'WES', name: 'WESFARMERS LIMITED', price: 92.21, volume: 975754},
       {code: 'CSL', name: 'CSL LIMITED', price: 11.00, volume: 134573},
       {code: 'FMG', name: 'FORTESCUE METALS GROUP LTD', price: 9.01, volume: 423421},
       {code: 'TLS', name: 'TELSTRA CORPORATION LIMITED', price: 85.02, volume: 44512},
